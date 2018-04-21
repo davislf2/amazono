@@ -4,7 +4,14 @@
   "description": "amazonon server",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "precommit": "lint-staged",
+    "test": "./node_modules/.bin/mocha"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "author": "davislf2",
   "license": "ISC",
@@ -14,15 +21,19 @@
     "express": "^4.16.3",
     "mongoose": "^5.0.11",
     "morgan": "^1.9.0",
-    "nodemon": "^1.17.2"
+    "nodemon": "^1.17.2",
+    "request": "^2.85.0"
   },
   "devDependencies": {
     "chai": "^4.1.2",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.11.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.4",
     "mocha": "^5.1.1",
     "prettier": "1.12.1",
+    "should": "^13.2.1",
     "sinon": "^4.5.0"
   }
 }

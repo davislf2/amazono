@@ -9,7 +9,60 @@ TODO:
 
 
 
+Questions:
+
+1. Can I do npm and yarn in the same project?
+
+
+
 DONE:
+
+1. ```sh
+   npm install -g prettier
+   # install globally
+   # then it can use prettier commands
+   prettier --single-quote --write "server/*.js"
+   yarn add lint-staged husky --dev
+   ```
+
+2. Add husky in config for prettier before precommit 
+
+   ```js
+     "scripts": {
+       "precommit": "lint-staged",
+     },
+     "lint-staged": {
+       "*.js": [
+         "prettier --write",
+         "git add"
+       ]
+     },
+   ```
+
+   Ref: https://kaddopur.github.io/blog/2017/05/10/prettier/
+
+3. Mocha and Chai for unit test
+
+   ```sh
+   npm install mocha -g      	# mocha execution should install globally
+   npm install mocha --save-dev
+   npm install should --save-dev
+   ```
+
+   Ref: https://buddy.works/guides/how-automate-nodejs-unit-tests-with-mocha-chai
+
+4. Don't put node_modules into git
+
+   ```sh
+   cd ..
+   echo './server/node_modules' > .gitignore
+   ```
+
+   ​
+
+
+
+ARCHIVE:
 
 1. GET a json response
 2. Setting up mlab https://mlab.com/
@@ -19,9 +72,6 @@ DONE:
    Database Users: davislf2, pw: db123
 3. Install cors: communicate between front-end and back-end because they are in different domains and ports.
 
-
-
-ARCHIVE:
 
 1. Build a Node.js server
 2. Install Prettier & ESLint
