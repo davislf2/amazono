@@ -25,6 +25,7 @@
     "request": "^2.85.0"
   },
   "devDependencies": {
+    "@jaredhanson/make-node": "^0.2.1",
     "chai": "^4.1.2",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",

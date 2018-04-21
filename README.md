@@ -18,20 +18,43 @@ BUG:
    > npm ERR! network This is a problem related to network connectivity.
    > npm ERR! network In most cases you are behind a proxy or have bad network settings.
 
-2. ​
+2. `echo './server/node_modules' > .gitignore` seems doesn't work
+
+3. ​
+
+```Makefile
+# include node_modules/@jaredhanson/make-node/main.mk
+#
+# My Fancy Node.js project
+#
+
+# PROJECT = "Amazono"
+
+# test: ;@echo "Testing ${PROJECT}....."; \
+# 	export NODE_PATH=.; \
+# 	./server/node_modules/.bin/mocha;
+
+# app_bundle := server/server.js
+
+# test: ;@cd ./server && npm test
+```
+
+
+
+
 
 Questions:
 
 1. How to debug if it doesnt' connect to MongoDB?
 2. Can I do npm and yarn in the same project?
-3. `echo './server/node_modules' > .gitignore` seems doesn't work
+3. ​
 
 
 
 DONE:
 
 1. VSCode: install Formatting toggle for prettier
-2. Add Travis CI
+2. Add Travis CI => Failed
 
 
 
