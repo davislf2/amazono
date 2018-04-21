@@ -5,7 +5,7 @@ node_js:
     # - "7"
     # - "6"
 before_script:
-    - cd .. &
+    - cd server &
     - npm install
 script:
     - node server.js &
