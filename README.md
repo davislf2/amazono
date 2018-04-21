@@ -3,7 +3,25 @@ Practice of Udemy - Complete Modern Amazon clone: Angular 5 and Node.js
 
 
 
-What do I want to do? 
+TODO:
+
+1. How to debug if it doesnt' connect to MongoDB?
+
+
+
+DONE:
+
+1. GET a json response
+2. Setting up mlab https://mlab.com/
+   da…2 -> AWS -> sandbox -> US East (Virginia, us-east-1)
+   DBName: amazono-app
+   Collection: davis
+   Database Users: davislf2, pw: db123
+3. Install cors: communicate between front-end and back-end because they are in different domains and ports.
+
+
+
+ARCHIVE:
 
 1. Build a Node.js server
 2. Install Prettier & ESLint
