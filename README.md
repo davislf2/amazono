@@ -5,17 +5,37 @@ Practice of Udemy - Complete Modern Amazon clone: Angular 5 and Node.js
 
 TODO:
 
-1. How to debug if it doesnt' connect to MongoDB?
+1. Install all Angular in uni (faster internet)
+2. Use Assert, Expect, Should to write test codes https://cythilya.github.io/2017/09/17/unit-test-with-mocha-chai-and-sinon/
 
 
+
+BUG:
+
+1. `` cause problem
+
+   > npm ERR! network request to https://registry.npmjs.org/watchpack/-/watchpack-1.5.0.tgz failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+   > npm ERR! network This is a problem related to network connectivity.
+   > npm ERR! network In most cases you are behind a proxy or have bad network settings.
+
+2. ​
 
 Questions:
 
-1. Can I do npm and yarn in the same project?
+1. How to debug if it doesnt' connect to MongoDB?
+2. Can I do npm and yarn in the same project?
+3. `echo './server/node_modules' > .gitignore` seems doesn't work
 
 
 
 DONE:
+
+1. VSCode: install Formatting toggle for prettier
+2. Add Travis CI
+
+
+
+ARCHIVE:
 
 1. ```sh
    npm install -g prettier
@@ -51,18 +71,13 @@ DONE:
 
    Ref: https://buddy.works/guides/how-automate-nodejs-unit-tests-with-mocha-chai
 
-4. Don't put node_modules into git
+4. Don't push node_modules into git
 
    ```sh
    cd ..
    echo './server/node_modules' > .gitignore
    ```
 
-   ​
-
-
-
-ARCHIVE:
 
 1. GET a json response
 2. Setting up mlab https://mlab.com/
