@@ -8,5 +8,5 @@ before_script:
     - cd server &
     - npm install
 script:
-    - node server.js &
+    - node server.js
     - npm test
