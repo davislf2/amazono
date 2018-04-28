@@ -11,7 +11,7 @@ TODO:
 
 BUG:
 
-1. `` cause problem
+1. problem
 
    > npm ERR! network request to https://registry.npmjs.org/watchpack/-/watchpack-1.5.0.tgz failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
    > npm ERR! network This is a problem related to network connectivity.
@@ -44,9 +44,7 @@ BUG:
 
 Questions:
 
-1. How to debug if it doesnt' connect to MongoDB?
-
-2. Can I do npm and yarn in the same project?
+1. Can I do npm and yarn in the same project?
 
    ​
 
@@ -54,13 +52,16 @@ Questions:
 
 DONE:
 
-1. Install all Angular in uni
-2. Edit app.component, home.component
+1. Add RestApi 
 
 
 
 
 ARCHIVE:
+
+1. Install all Angular in uni
+2. Edit app.component, home.component
+
 
 1. VSCode: install Formatting toggle for prettier
 2. Add Travis CI => Failed
@@ -130,6 +131,12 @@ npm install --save-dev --save-exact prettier
 npm install eslint-config-airbnb-base eslint-plugin-import eslint --save-dev
 npm install mocha chai sinon --save-dev
 ```
+
+
+
+Answered:
+
+1. How to debug if it doesnt' connect to MongoDB? => use command directly connect
 
 
 
