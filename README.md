@@ -55,7 +55,7 @@ Questions:
 DONE:
 
 1. Install all Angular in uni
-2. Edit app.component.ts, 
+2. Edit app.component, home.component
 
 
 
