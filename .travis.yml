@@ -8,5 +8,4 @@ before_script:
     - cd server
     - npm install
 script:
-    # - nodemon
     - npm test

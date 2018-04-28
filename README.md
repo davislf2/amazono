@@ -5,8 +5,7 @@ Practice of Udemy - Complete Modern Amazon clone: Angular 5 and Node.js
 
 TODO:
 
-1. Install all Angular in uni (faster internet)
-2. Use Assert, Expect, Should to write test codes https://cythilya.github.io/2017/09/17/unit-test-with-mocha-chai-and-sinon/
+1. Use Assert, Expect, Should to write test codes https://cythilya.github.io/2017/09/17/unit-test-with-mocha-chai-and-sinon/
 
 
 
@@ -46,19 +45,25 @@ BUG:
 Questions:
 
 1. How to debug if it doesnt' connect to MongoDB?
+
 2. Can I do npm and yarn in the same project?
-3. ​
+
+   ​
 
 
 
 DONE:
 
-1. VSCode: install Formatting toggle for prettier
-2. Add Travis CI => Failed
+1. Install all Angular in uni
+2. Edit app.component.ts, 
+
 
 
 
 ARCHIVE:
+
+1. VSCode: install Formatting toggle for prettier
+2. Add Travis CI => Failed
 
 1. ```sh
    npm install -g prettier

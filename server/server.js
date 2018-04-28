@@ -25,6 +25,7 @@ mongoose.connect(config.dbUrl, err => {
 // });
 
 app.get('/', function (req, res) {
+  
   res.send('Hello World')
 })
 

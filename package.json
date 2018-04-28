@@ -1,5 +1,11 @@
 {
     "scripts": {
-      "test": "./server/node_modules/.bin/mocha"
+        "test": "./server/node_modules/.bin/mocha"
+    },
+    "devDependencies": {
+        "@angular/cli": "^1.7.4"
+    },
+    "dependencies": {
+        "@ng-bootstrap/ng-bootstrap": "^1.1.2"
     }
 }

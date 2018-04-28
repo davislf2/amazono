@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+.bg-main {
+  background-color: $main;
+}
+
+a {
+  cursor: pointer;
+}
+
+a.hover {
+  text-decoration: none;
+  color: #ffc107;
+}
+
+button {
+  cursor: pointer;
+}
+
+section {
+  min-height: 600px;
+}
